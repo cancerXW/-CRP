@@ -1,0 +1,31 @@
+<view class="evaluate-title-txt-view">总积分:{{evaluateTotalScore}} 记录数: {{evaluateTotalNumber}}</view>
+<view class="evaluate-tile-view">
+  <view class="evaluate-tile-time">时间</view>
+  <view class="evaluate-tile-causes">原因</view>
+  <view class="evaluate-tile-score">分值</view>
+  <view class="evaluate-tile-remarks">备注</view>
+</view>
+<view wx:for="{{evaluateData}}" wx:key="index" class="evaluate-column-view">
+  <view wx:if="{{index%2==0}}" class="evaluate-column-time-two">
+    {{item.time}}
+  </view>
+  <view wx:else class="evaluate-column-time">
+    {{item.time}}
+  </view>
+  <view wx:if="{{index%2==0}}" class="evaluate-column-causes-two">
+    {{item.causes}}
+  </view>
+  <view wx:else class="evaluate-column-causes">
+    {{item.causes}}
+  </view>
+  <view wx:if="{{index%2==0}}" class="evaluate-column-score-two">{{item.score}}
+    <br/>({{item.type}})</view>
+  <view wx:else class="evaluate-column-score">{{item.score}}
+    <br/>({{item.type}})</view>
+  <view wx:if="{{index%2==0}}" class="evaluate-column-remarks-two">
+    {{item.remarks}}
+  </view>
+  <view wx:else class="evaluate-column-remarks">
+    {{item.remarks}}
+  </view>
+</view>

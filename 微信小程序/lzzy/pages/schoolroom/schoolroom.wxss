@@ -1,0 +1,60 @@
+.shoolroom-title-text-view {
+  text-align: right;
+  padding-right: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.shoolroom-title-view {
+  width: 100%;
+  text-align: center;
+  display: table-row;
+  font-size: 0.9rem;
+  background: #a5a5a5;
+  color: white;
+}
+
+.shoolroom-column-view {
+  width: 100%;
+  font-size: 0.7rem;
+  text-align: center;
+  display: table-row;
+}
+
+.shoolroom-type, .shoolroom-name, .shoolroom-score {
+  width: 40%;
+  display: table-cell;
+  border: solid 1px #c9c9c9;
+  border-right: none;
+  border-top: none;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.shoolroom-type-two, .shoolroom-name-two, .shoolroom-score-two {
+  width: 40%;
+  display: table-cell;
+  border: solid 1px #c9c9c9;
+  border-right: none;
+  border-top: none;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background: #ededed;
+}
+
+.shoolroom-score {
+  width: 20%;
+}
+
+.shoolroom-title-type, .shoolroom-title-name, .shoolroom-title-score {
+  width: 33%;
+  display: table-cell;
+  border: solid 1px #c9c9c9;
+  border-right: none;
+  margin-top: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.shoolroom-title-score, .shoolroom-score-two, .shoolroom-score {
+  border-right: solid 1px #c9c9c9;
+}

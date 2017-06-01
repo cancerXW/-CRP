@@ -1,0 +1,51 @@
+<view class="learn-title-txt-view">
+  共修：{{courseNumber}}门课程 已修{{learnNumber}}学分 {{noPassNumber}} 门不及格</view>
+<view class="learn-title-column">
+  <view class="learn-title-term">
+    学期
+  </view>
+  <view class="learn-title-courses-name">
+    课程名字
+  </view>
+  <view class="learn-title-genre">
+    类型
+  </view>
+  <view class="learn-title-credits">
+    学分
+  </view>
+  <view class="learn-title-result">
+    成绩
+  </view>
+</view>
+<view wx:for="{{learnData}}" wx:key="index" class="learn-column">
+  <view wx:if="{{index%2==0}}" class="learn-column-term-two">
+    {{item.term}}
+  </view>
+  <view wx:else class="learn-column-term">
+    {{item.term}}
+  </view>
+  <view wx:if="{{index%2==0}}" class="learn-column-courses-name-two">
+    {{item.causes}}
+  </view>
+  <view wx:else class="learn-column-courses-name">
+    {{item.causes}}
+  </view>
+  <view wx:if="{{index%2==0}}" class="learn-column-genre-two">
+    {{item.type}}
+  </view>
+  <view wx:else class="learn-column-genre">
+    {{item.type}}
+  </view>
+  <view wx:if="{{index%2==0}}" class="learn-column-credits-two">
+    {{item.score}}
+  </view>
+  <view wx:else class="learn-column-credits">
+    {{item.score}}
+  </view>
+  <view wx:if="{{index%2==0}}" class="learn-column-result-two">
+    {{item.remarks}}
+  </view>
+  <view wx:else class="learn-column-result">
+    {{item.remarks}}
+  </view>
+</view>

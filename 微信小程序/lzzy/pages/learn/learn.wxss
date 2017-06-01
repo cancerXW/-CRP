@@ -1,0 +1,55 @@
+.learn-title-txt-view {
+  text-align: right;
+  padding-right: 0.2rem;
+  font-size: 0.8rem;
+}
+
+.learn-title-column {
+  margin-top: 3px;
+  display: table-row;
+  font-size: 0.9rem;
+  background: #4472c4;
+  color: white;
+}
+
+.learn-title-term, .learn-title-courses-name, .learn-title-genre,
+.learn-title-credits, .learn-title-result {
+  text-align: center;
+  display: table-cell;
+  border: solid 1px #8eaadb;
+  border-right: none;
+  padding: 2px;
+}
+
+.learn-title-genre, .learn-title-credits, .learn-title-result {
+  width: 80rpx;
+}
+
+.learn-column {
+  text-align: center;
+  font-size: 0.7rem;
+  display: table-row;
+}
+
+.learn-column-term-two, .learn-column-courses-name-two, .learn-column-genre-two,
+.learn-column-credits-two, .learn-column-result-two {
+  display: table-cell;
+  border: solid 1px #8eaadb;
+  padding: 2px;
+  border-right: none;
+  border-top: none;
+}
+
+.learn-column-term, .learn-column-courses-name, .learn-column-genre,
+.learn-column-credits, .learn-column-result {
+  display: table-cell;
+  border: solid 1px #8eaadb;
+  padding: 2px;
+  border-right: none;
+  border-top: none;
+  background: #d9e2f3;
+}
+
+.learn-title-result.learn-column-result-two, .learn-column-result {
+  border-right: solid 1px #8eaadb;
+}

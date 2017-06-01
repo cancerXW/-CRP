@@ -1,0 +1,47 @@
+.index-userImg {
+  border-radius: 50%;
+  height: 130rpx;
+  width: 130rpx;
+  margin-left: 25px;
+}
+
+.index-userName {
+  position: absolute;
+  top: 16rpx;
+  font-size: 2rem;
+  margin-left: 20rpx;
+}
+
+.index-signOut {
+  float: right;
+  height: 80rpx;
+  width: 80rpx;
+  margin-right: 65rpx;
+  margin-top: 20rpx;
+}
+
+.index-head {
+  width: 100%;
+}
+
+.index-context {
+  width: 100%;
+}
+
+.index-context-row {
+  width: 100%;
+}
+
+.index-context-column {
+  width: 25%;
+  padding-left: 5%;
+  padding-top: 5%;
+  float: left;
+  text-align: center;
+}
+
+.index-context-column-image {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+}

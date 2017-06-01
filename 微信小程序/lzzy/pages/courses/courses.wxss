@@ -1,0 +1,59 @@
+.time-view {
+  width: 100%;
+  text-align: center;
+}
+
+.head-time-view {
+  border: solid #ffd966 1px;
+  padding-top: 15rpx;
+  padding-bottom: 15rpx;
+  background: #ffc000;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.head-time-picker {
+  display: inline-block;
+  width: 49%;
+}
+
+.left-time-view {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  line-height: 2rem;
+  padding-top: 10rpx;
+  display: table-cell;
+  border: solid #ffd966 1px;
+  border-top: none;
+  border-right: none;
+}
+
+.content-view {
+  display: table-cell;
+  border: solid #ffd966 1px;
+  border-top: none;
+  width: 90%;
+  font-size: 0.7rem;
+}
+
+.left-time-view-two {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  line-height: 2rem;
+  padding-top: 10rpx;
+  display: table-cell;
+  border: solid #ffd966 1px;
+  border-top: none;
+  border-right: none;
+  background: #fff2cc;
+}
+
+.content-view-two {
+  display: table-cell;
+  border: solid #ffd966 1px;
+  border-top: none;
+  width: 90%;
+  font-size: 0.7rem;
+  background: #fff2cc;
+}

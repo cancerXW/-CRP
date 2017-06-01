@@ -1,0 +1,54 @@
+.evaluate-title-txt-view {
+  text-align: right;
+  padding-right: 1rem;
+  font-size: 0.8rem;
+}
+
+.evaluate-tile-view {
+  width: 100%;
+  text-align: center;
+  display: table-row;
+  font-size: 0.9rem;
+  background: #5b9bd5;
+  color: white;
+}
+
+.evaluate-tile-time, .evaluate-tile-causes, .evaluate-tile-score,
+.evaluate-tile-remarks {
+  display: table-cell;
+  border: solid 1px #9cc2e5;
+  padding: 3px;
+  border-left: none;
+}
+
+.evaluate-tile-time {
+  border-left: solid 1px #9cc2e5;
+}
+
+.evaluate-column-view {
+  width: 100%;
+  font-size: 0.7rem;
+  text-align: center;
+  display: table-row;
+}
+
+.evaluate-column-time-two, .evaluate-column-causes-two,
+.evaluate-column-score-two, .evaluate-column-remarks-two {
+  display: table-cell;
+  border-bottom: solid 1px #9cc2e5;
+  border-right: solid 1px #9cc2e5;
+  padding: 3px;
+  background: #deeaf6;
+}
+
+.evaluate-column-time, .evaluate-column-causes, .evaluate-column-score,
+.evaluate-column-remarks {
+  display: table-cell;
+  border-bottom: solid 1px #9cc2e5;
+  border-right: solid 1px #9cc2e5;
+  padding: 3px;
+}
+
+.evaluate-column-time-two, .evaluate-column-time {
+  border-left: solid 1px #9cc2e5;
+}

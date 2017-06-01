@@ -1,0 +1,40 @@
+.log-img {
+  width: 150rpx;
+  height: 150rpx;
+  margin: auto;
+  border-radius: 10%;
+}
+
+.title-text {
+  display: block;
+  padding: 5px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.login-view {
+  margin: auto;
+  width: 80%;
+  margin-top: 20%;
+  text-align: center;
+}
+
+.login-no {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: #ccc solid 1px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.login-password {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: #ccc solid 1px;
+  border-radius: 5px;
+  height: 35px;
+}
+
+.login-placeholder {
+  margin-left: 10px;
+}

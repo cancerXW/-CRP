@@ -1,0 +1,19 @@
+<view class="achievement-tile-view">
+  <view class="achievement-tile-term">学年学期</view>
+  <view class="achievement-tile-average">学年各科成绩平均分</view>
+  <view class="achievement-tile-integral">学年综合测评积分</view>
+  <view class="achievement-tile-result">综合素质考评成绩</view>
+  <view class="achievement-tile-ranking ">行政班排名 </view>
+</view>
+<view wx:for="{{achievementData}}" wx:key="index" class="achievement-column-view">
+  <view wx:if="{{index%2==0}}" class="achievement-column-term-two">{{item.achievementTerm}}</view>
+  <view wx:else class="achievement-column-term">{{item.achievementTerm}}</view>
+  <view wx:if="{{index%2==0}}" class="achievement-column-average-two">{{item.achievementAverage}}</view>
+  <view wx:else class="achievement-column-average">{{item.achievementAverage}}</view>
+  <view wx:if="{{index%2==0}}" class="achievement-column-integral-two">{{item.achievementIntegral}}</view>
+  <view wx:else class="achievement-column-integral">{{item.achievementIntegral}}</view>
+  <view wx:if="{{index%2==0}}" class="achievement-column-result-two">{{item.achievementResult}}</view>
+  <view wx:else class="achievement-column-result">{{item.achievementResult}}</view>
+  <view wx:if="{{index%2==0}}" class="achievement-column-ranking-two">{{item.achievementRanking}}</view>
+  <view wx:else class="achievement-column-ranking">{{item.achievementRanking}}</view>
+</view>

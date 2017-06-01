@@ -1,0 +1,9 @@
+<form bindsubmit="formSubmit">
+  <view class="login-view">
+    <image src="../../image/log.png" class="log-img"></image>
+    <text class="title-text">CRP学生平台</text>
+    <input class="login-no" placeholder-class="login-placeholder" type="number" title="1" name="no" placeholder="请输入学号" value="{{userNo}}" />
+    <input class="login-password" placeholder-class="login-placeholder" type="password" name="password" placeholder="请输入密码" value="{{userPassword}}" />
+    <button form-type="submit" type="primary">登录</button>
+  </view>
+</form>

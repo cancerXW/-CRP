@@ -1,0 +1,33 @@
+<view class="index-head">
+  <image class="index-userImg" mode="aspectFill" src="{{userImg}}"></image>
+  <text class="index-userName">{{userName}}</text>
+  <image class="index-signOut" src="../../image/exit.jpg"  bindtap="signOut"></image>
+</view>
+<view class="index-context">
+  <view class="index-context-row">
+    <navigator url="../learn/learn">
+      <view class="index-context-column">
+        <image class="index-context-column-image" src="../../image/learn.jpg"></image>学分</view>
+    </navigator>
+    <view class="index-context-column" bindtap="coursesNav">
+      <image class="index-context-column-image" src="../../image/courses.jpg"></image>课程表</view>
+    <navigator url="../teacher/teacher">
+      <view class="index-context-column">
+        <image class="index-context-column-image" src="../../image/teacher.jpg"></image>我的老师</view>
+    </navigator>
+  </view>
+  <view class="index-context-row">
+    <navigator url="../schoolroom/schoolroom">
+      <view class="index-context-column">
+        <image class="index-context-column-image" src="../../image/schoolroom.jpg"></image>活动分</view>
+    </navigator>
+    <navigator url="../evaluate/evaluate">
+      <view class="index-context-column">
+        <image class="index-context-column-image" src="../../image/evaluate.jpg"></image>诚信分</view>
+    </navigator>
+    <navigator url="../achievement/achievement">
+      <view class="index-context-column">
+        <image class="index-context-column-image" src="../../image/achievement.jpg"></image>综合成绩</view>
+    </navigator>
+  </view>
+</view>

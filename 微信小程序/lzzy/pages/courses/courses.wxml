@@ -1,0 +1,39 @@
+<view class="time-view">
+  <view class="head-time-view">
+    <picker bindchange="tremPickerChange" value="{{tremIndex}}" range="{{tremArr}}">
+      <view>{{tremArr[tremIndex]}}</view>
+    </picker>
+  </view>
+  <view class="head-time-view">
+    <picker bindchange="weekPickerChange" class="head-time-picker" style="border-right:solid #ffd966 2px" value="{{weekIndex}}" range="{{weekArr}}">
+      <view>{{weekArr[weekIndex]}}</view>
+    </picker>
+    <picker bindchange="dayPickerChange" class="head-time-picker" value="{{dayIndex}}" range="{{dayArr}}">
+      <view>{{dayArr[dayIndex]}}</view>
+    </picker>
+  </view>
+  <view>
+    <view class="left-time-view-two">早上</view>
+    <view class="content-view-two">{{forenoon}}</view>
+  </view>
+  <view>
+    <view class="left-time-view">中午</view>
+    <view class="content-view">{{noon}}</view>
+  </view>
+  <view>
+    <view class="left-time-view-two">下午</view>
+    <view class="content-view-two">{{afternoon}}</view>
+  </view>
+  <view>
+    <view class="left-time-view">晚上</view>
+    <view class="content-view">{{night}}</view>
+  </view>
+  <view>
+    <view class="left-time-view-two">全天</view>
+    <view class="content-view-two">{{day}}</view>
+  </view>
+  <view>
+    <view class="left-time-view">其他</view>
+    <view class="content-view">{{other}}</view>
+  </view>
+</view>

@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/courses/courses",
+    "pages/achievement/achievement",
+    "pages/evaluate/evaluate",
+    "pages/learn/learn",
+    "pages/teacher/teacher",
+    "pages/schoolroom/schoolroom",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "数字化校园平台",
+    "navigationBarTextStyle": "black"
+  }
+}

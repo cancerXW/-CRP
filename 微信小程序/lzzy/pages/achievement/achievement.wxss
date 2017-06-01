@@ -1,0 +1,51 @@
+.achievement-tile-view {
+  text-align: center;
+  display: table-row;
+  font-size: 0.9rem;
+  background: #ed7d31;
+  color: white;
+}
+
+.achievement-tile-term, .achievement-tile-average, .achievement-tile-integral,
+.achievement-tile-result, .achievement-tile-ranking {
+  border: solid 1px #f4b083;
+  border-left: none;
+  padding: 3px;
+  display: table-cell;
+  width: 20% !important;
+}
+
+.achievement-tile-term {
+  border-left: solid 1px #f4b083;
+}
+
+.achievement-column-view {
+  text-align: center;
+  display: table-row;
+  font-size: 0.7rem;
+}
+
+.achievement-column-term, .achievement-column-average,
+.achievement-column-integral, .achievement-column-result,
+.achievement-column-ranking {
+  border-bottom: solid 1px #f4b083;
+  border-right: solid 1px #f4b083;
+  padding: 3px;
+  width: 20% !important;
+  display: table-cell;
+  background: #fbe4d5;
+}
+
+.achievement-column-term-two, .achievement-column-average-two,
+.achievement-column-integral-two, .achievement-column-result-two,
+.achievement-column-ranking-two {
+  border-bottom: solid 1px #f4b083;
+  border-right: solid 1px #f4b083;
+  padding: 3px;
+  width: 20% !important;
+  display: table-cell;
+}
+
+.achievement-column-term, .achievement-column-term-two {
+  border-left: solid 1px #f4b083;
+}

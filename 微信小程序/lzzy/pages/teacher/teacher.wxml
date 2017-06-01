@@ -1,0 +1,40 @@
+<view class="teacher-tile-view">
+  <view class="teacher-title-term">
+    学年学期
+  </view>
+  <view class="teacher-title-course">
+    课程名称
+  </view>
+  <view class="teacher-title-name">
+    姓名
+  </view>
+  <view class="teacher-title-contact">
+    联系方式
+  </view>
+</view>
+<view wx:for="{{teacherData}}" wx:key="index" class="teacher-column-view">
+  <view wx:if="{{index%2==0}}" class="teacher-column-term-two">
+    {{item.term}}
+  </view>
+  <view wx:else class="teacher-column-term">
+    {{item.term}}
+  </view>
+  <view wx:if="{{index%2==0}}" class="teacher-column-course-two">
+    {{item.course}}
+  </view>
+  <view wx:else class="teacher-column-course">
+    {{item.course}}
+  </view>
+  <view wx:if="{{index%2==0}}" class="teacher-column-name-two">
+    {{item.name}}({{item.sex}})
+  </view>
+  <view wx:else class="teacher-column-name">
+    {{item.name}}({{item.sex}})
+  </view>
+  <view wx:if="{{index%2==0}}" class="teacher-column-contact-two">
+    {{item.phone}} {{item.email}}
+  </view>
+  <view wx:else class="teacher-column-contact">
+    {{item.phone}} {{item.email}}
+  </view>
+</view>

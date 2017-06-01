@@ -1,0 +1,51 @@
+.teacher-tile-view {
+  width: 100%;
+  text-align: center;
+  display: table-row;
+  font-size: 0.9rem;
+  background: #70ad47;
+  color: white;
+}
+
+.teacher-title-term, .teacher-title-course, .teacher-title-name,
+.teacher-title-contact {
+  display: table-cell;
+  border: solid 1px #a8d08d;
+  padding: 3px;
+  border-left: none;
+}
+
+.teacher-title-term, .teacher-title-course {
+  width: 160rpx;
+}
+
+.teacher-title-name {
+  width: 100rpx;
+}
+
+.teacher-column-view {
+  width: 100%;
+  font-size: 0.7rem;
+  text-align: center;
+  display: table-row;
+}
+
+.teacher-column-term, .teacher-column-course, .teacher-column-name,
+.teacher-column-contact {
+  display: table-cell;
+  border-bottom: solid 1px #a8d08d;
+  border-right: solid 1px #a8d08d;
+  padding: 3px;
+}
+
+.teacher-column-term-two, .teacher-column-course-two, .teacher-column-name-two,
+.teacher-column-contact-two {
+  display: table-cell;
+  border-bottom: solid 1px #a8d08d;
+  border-right: solid 1px #a8d08d;
+  padding: 3px;
+  background: #e2efd9;
+}
+.teacher-title-term,.teacher-column-term,.teacher-column-term-two{
+    border-left: solid 1px #a8d08d;
+}

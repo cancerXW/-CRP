@@ -1,0 +1,14 @@
+<view class="shoolroom-title-text-view">{{schoolroomTotalScore}} {{schoolroomTotalNumber}}</view>
+<view class="shoolroom-title-view">
+  <view class="shoolroom-title-type">活动类别</view>
+  <view class="shoolroom-title-name">活动名称</view>
+  <view class="shoolroom-title-score">学分</view>
+</view>
+<view wx:for="{{schoolroomData}}" wx:key="index" class="shoolroom-column-view">
+  <view wx:if="{{index%2==0}}" class="shoolroom-type-two">{{item.schoolroomActivityType}}</view>
+  <view wx:else class="shoolroom-type">{{item.schoolroomActivityType}}</view>
+  <view wx:if="{{index%2==0}}" class="shoolroom-name-two">{{item.schoolroomActivityName}}</view>
+  <view wx:else class="shoolroom-name">{{item.schoolroomActivityName}}</view>
+  <view wx:if="{{index%2==0}}" class="shoolroom-score-two">{{item.schoolroomScore}}</view>
+  <view wx:else class="shoolroom-score">{{item.schoolroomScore}}</view>
+</view>
