@@ -80,7 +80,7 @@ Page({
       var no = app.globalData.userNo;
       var password = app.globalData.userPassword;
       wx.request({
-        url: 'https://www.qhh170226.com/lzzy/lzzy.php',
+        url: '服务器地址',
         data: {
           act: 'getTimeTable',
           term: nowT,
