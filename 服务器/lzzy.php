@@ -62,7 +62,7 @@ return;
 function get_usrImg($shareCurl) {
     $_url = "http://jw.lzzy.net/st/student/left.aspx";
     $_html = get_content($_url, $shareCurl);
-    preg_match('/(?<=src=\").*?(\.jpg|png|bmp|pcx|tiff|gif|jpeg|tga|exif|fpx|svg|psd|cdr|pcd|dxf|ufo|eps|ai|hdri|raw)/is', $_html, $_arr);;
+    preg_match('/(?<=src=\").*?(\.jpg|png|bmp|pcx|tiff|gif|jpeg|tga|exif|fpx|svg|psd|cdr|pcd|dxf|ufo|eps|ai|hdri|raw)/is', $_html, $_arr);
     return "http://jw.lzzy.net/st/student/" . $_arr[0];
 }
 
